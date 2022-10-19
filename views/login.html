@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bienvenidos a Mercado Liebre!</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+    
+            <div class="header-flex">
+                
+                <img src="/images/logo-mercado-liebre.svg" alt="loco de Mercado Liebre">    
+                <div id="header-div-barraBusqueda">
+            
+                <div id="header-contenedor-iconoBusqueda">
+                    
+                        <form action="#">
+                            <input type="text" name="busqueda-productos" placeholder="Buscar productos..">
+                            <button id="header-button-buscar" type="submit"><i class="fas fa-search" id="header-icono-buscar"></i></button>
+                        </form>
+                </div>
+                </div>
+                <p> <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://localhost:3000/register">Creá tu cuenta <i class="fas fa-user-circle"></i></a></li>
+                    <li><a href="#">Ingresá <i class="far fa-arrow-alt-from-left"></i></a></li>
+                    <li><a href="#">Mis Compras <i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+    
+            <div id="div-menu-hamburguesa">
+                <i class="fas fa-bars" id="menu-hamburguesa"></i>
+            </div>
+            
+        </header>
+        
+        <main id="main-login">
+            <form action="#" method="POST" id="main-login-form">
+
+                <label for="nombre-usuario-registrado">Nombre de Usuario</label>
+                <input type="text" id="nombre-usuario-registrado" name="nombre-usuario-registrado" required>
+
+                <label for="contraseña-usuario-registrado">Contraseña</label>
+                <input type="password" id="contraseña-usuario-registrado" name="contraseña-usuario-registrado" required>
+
+                <br>
+                <button type="submit"><a href="localhost:3000"></a>Enviar</button>
+
+            </form>
+
+        </main>
+    
+    
+            
+        <footer>
+            <article class="footer-article">
+                <div>
+                    <i class="fas fa-credit-card footer-iconos"></i>
+                </div>
+                
+                <h4 class="descripciones"><strong>Pagá con tarjeta o en efectivo</strong></h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </article>
+            
+            <article class="footer-article">
+                <div>
+                    <i class="fas fa-gift footer-iconos"></i>
+                </div>
+                <h4 class="descripciones"><strong>Envío gratis desde $ 2.500</strong></h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </article>
+            
+            <article class="footer-article">
+                <div>
+                    <i class="fas fa-gift footer-iconos"></i>
+                </div>
+                <h4 class="descripciones"><strong>Seguridad, de principio a fin</strong></h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </article>
+        
+            <article>
+                <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+            </article>
+        </footer>
+    </body>
+</html>
