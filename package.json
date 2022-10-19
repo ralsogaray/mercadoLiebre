@@ -1,13 +1,14 @@
 {
   "name": "mercadoliebre",
   "version": "1.0.0",
-  "description": "",
+  "description": "Imitación de HTML + CSS de Mercado Libre sumando express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ralsogaray",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
