@@ -16,6 +16,7 @@ app.listen(port, () =>{
     console.log("Server up, running in port 3000")
 })
 
+// routes
 app.get("/", (request, response) =>{
     response.sendFile( path.resolve('views/home.html') )
 })
